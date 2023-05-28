@@ -366,23 +366,13 @@ Screen1 As screen:
             Y: =181
             ZIndex: =3
 
-        Button3 As button:
-            Fill: =RGBA(116, 158, 184, 1)
-            Height: =75
-            OnSelect: |-
-                =NewForm(Form2);UpdateContext({var_form2:true})
-            Text: ="Empezar ahora"
-            X: =602
-            Y: =544
-            ZIndex: =4
-
         Circle2 As circle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =199
             Width: =199
             X: =583
             Y: =89
-            ZIndex: =5
+            ZIndex: =4
 
         Image4 As image:
             Height: =228
@@ -390,7 +380,7 @@ Screen1 As screen:
             Width: =286
             X: =539
             Y: =74
-            ZIndex: =6
+            ZIndex: =5
 
         Label5 As label:
             Align: =Align.Center
@@ -404,7 +394,7 @@ Screen1 As screen:
             Width: =510
             X: =428
             Y: =244
-            ZIndex: =7
+            ZIndex: =6
 
         Label6 As label:
             Color: =RGBA(42, 63, 77, 1)
@@ -417,7 +407,17 @@ Screen1 As screen:
                 muchas gracias."
             Width: =670
             X: =348
-            Y: =430
+            Y: =420
+            ZIndex: =7
+
+        Button3 As button:
+            Fill: =RGBA(116, 158, 184, 1)
+            Height: =75
+            OnSelect: |-
+                =NewForm(Form2);UpdateContext({var_form2:true})
+            Text: ="Empezar ahora"
+            X: =602
+            Y: =544
             ZIndex: =8
 
     Vista2 As groupContainer.manualLayoutContainer:
