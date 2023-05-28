@@ -1,8 +1,8 @@
 Screen1 As screen:
 
-    Container1 As groupContainer.manualLayoutContainer:
+    PrimeraVista As groupContainer.manualLayoutContainer:
         Height: =762
-        Visible: =var_form2=true
+        Visible: =var_form2=false
         Width: =1366
         Y: =2
         ZIndex: =1
@@ -238,7 +238,7 @@ Screen1 As screen:
         Label1 As label:
             FontWeight: =FontWeight.Bold
             Size: =15
-            Text: ="Datos Cliente"
+            Text: ="Preguntas de satisfacción con el servicio"
             Width: =659
             X: =127
             Y: =65
@@ -255,11 +255,21 @@ Screen1 As screen:
 
         Button3_1 As button:
             Height: =75
-            OnSelect: =
+            OnSelect: |-
+                =UpdateContext({var_form2:false};{var_form3:true})
             Text: ="Siguiente"
             X: =997
             Y: =623
             ZIndex: =7
+
+        Button3_2 As button:
+            Height: =75
+            OnSelect: |-
+                =UpdateContext({var_form2:false});
+            Text: ="Regresar"
+            X: =116
+            Y: =602
+            ZIndex: =8
 
     inicio As groupContainer.manualLayoutContainer:
         ContentLanguage: |
@@ -279,4 +289,274 @@ Screen1 As screen:
             X: =20
             Y: =26
             ZIndex: =1
+
+    Vista2 As groupContainer.manualLayoutContainer:
+        Height: =762
+        Visible: =var_form3=true
+        Width: =1366
+        Y: =6
+        ZIndex: =4
+
+        Form2_1 As form:
+            DataSource: ='Encuestas PostServicios'
+            Height: =237
+            NumberOfColumns: =1
+            Visible: |
+                =true
+            Width: =819
+            X: =157
+            Y: =217
+            ZIndex: =1
+
+            "'Correo electronico organización_DataCard1_1' As typedDataCard.textualEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Title"
+                Default: =ThisItem.'Correo electronico organización'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Encuestas PostServicios'],DataSourceInfo.DisplayName,"Title")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "Title")
+                Required: =true
+                Update: =DataCardValue11_1.Text
+                Width: =819
+                X: =0
+                Y: =0
+                ZIndex: =2
+
+                DataCardKey11_1 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.4
+                    Wrap: =false
+                    X: =30
+                    Y: =10 + (DataCardValue11_1.Height / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                DataCardValue11_1 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey11_1.X + DataCardKey11_1.Width
+                    Y: =10
+                    ZIndex: =2
+
+                ErrorMessage11_1 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue11_1.Y + DataCardValue11_1.Height
+                    ZIndex: =3
+
+                StarVisible11_1 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey11_1.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey11_1.Y
+                    ZIndex: =4
+
+            "'Nombre Empresa_DataCard1_1' As typedDataCard.textualEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="field_1"
+                Default: =ThisItem.'Nombre Empresa'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Encuestas PostServicios'],DataSourceInfo.DisplayName,"field_1")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "field_1")
+                Required: =false
+                Update: =DataCardValue12_1.Text
+                Width: =819
+                X: =0
+                Y: =1
+                ZIndex: =2
+
+                DataCardKey12_1 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.4
+                    Wrap: =false
+                    X: =30
+                    Y: =10 + (DataCardValue12_1.Height / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                DataCardValue12_1 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey12_1.X + DataCardKey12_1.Width
+                    Y: =10
+                    ZIndex: =2
+
+                ErrorMessage12_1 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue12_1.Y + DataCardValue12_1.Height
+                    ZIndex: =3
+
+                StarVisible12_1 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey12_1.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey12_1.Y
+                    ZIndex: =4
+
+            "'Nombre y apellidos del cliente_DataCard1_1' As typedDataCard.textualEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="field_2"
+                Default: =ThisItem.'Nombre y apellidos del cliente'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Encuestas PostServicios'],DataSourceInfo.DisplayName,"field_2")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "field_2")
+                Required: =false
+                Update: =DataCardValue13_1.Text
+                Width: =819
+                X: =0
+                Y: =2
+                ZIndex: =2
+
+                DataCardKey13_1 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.4
+                    Wrap: =false
+                    X: =30
+                    Y: =10 + (DataCardValue13_1.Height / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                DataCardValue13_1 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =(Parent.Width - 60) * 0.6
+                    X: =DataCardKey13_1.X + DataCardKey13_1.Width
+                    Y: =10
+                    ZIndex: =2
+
+                ErrorMessage13_1 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =16
+                    Y: =DataCardValue13_1.Y + DataCardValue13_1.Height
+                    ZIndex: =3
+
+                StarVisible13_1 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey13_1.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey13_1.Y
+                    ZIndex: =4
+
+        Rectangle2_1 As rectangle:
+            BorderStyle: =BorderStyle.Dotted
+            Width: =1042
+            X: =92
+            Y: =40
+            ZIndex: =2
+
+        Image1_1 As image:
+            Image: =User().Image
+            X: =1132
+            Y: =40
+            ZIndex: =3
+
+        Label1_1 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =15
+            Text: ="Preguntas encuestas Post-Servicios"
+            Width: =659
+            X: =127
+            Y: =65
+            ZIndex: =4
+
+        Label2_1 As label:
+            Height: =97
+            Text: |-
+                ="Usuario: "&User().FullName
+            Width: =313
+            X: =818
+            Y: =43
+            ZIndex: =5
+
+        Button3_4 As button:
+            Height: =75
+            OnSelect: =
+            Text: ="Siguiente"
+            X: =997
+            Y: =623
+            ZIndex: =7
+
+        Button3_3 As button:
+            Height: =75
+            OnSelect: |-
+                =UpdateContext({var_form2:false});
+            Text: ="Regresar"
+            X: =116
+            Y: =602
+            ZIndex: =8
 
