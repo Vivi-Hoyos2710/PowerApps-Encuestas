@@ -85,7 +85,8 @@ Screen1 As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "field_1")
-            Required: =false
+            Required: |
+                =true
             Update: =DataCardValue2.Text
             Width: =445
             X: =1
