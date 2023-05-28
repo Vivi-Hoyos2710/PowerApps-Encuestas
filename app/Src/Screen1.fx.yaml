@@ -60,8 +60,8 @@ Screen1 As screen:
             Size: =20
             Text: ="Datos Personales"
             Width: =659
-            X: =177
-            Y: =70
+            X: =196
+            Y: =71
             ZIndex: =6
 
         Label2 As label:
@@ -72,7 +72,7 @@ Screen1 As screen:
             Text: |-
                 ="Usuario: "&User().FullName
             Width: =313
-            X: =818
+            X: =822
             Y: =43
             ZIndex: =7
 
@@ -415,69 +415,66 @@ Screen1 As screen:
             ZIndex: =8
 
     Vista2 As groupContainer.manualLayoutContainer:
-        Height: =762
+        Height: =Parent.Height-Self.Y
         Visible: =var_form3
-        Width: =1366
+        Width: =Parent.Width-Self.X
         Y: =6
         ZIndex: =4
 
-        Rectangle2_1 As rectangle:
-            BorderStyle: =BorderStyle.Dotted
-            Width: =1042
-            X: =92
-            Y: =40
+        Image6_1 As image:
+            Height: =762
+            Image: =FondoRCJ
+            ImagePosition: =ImagePosition.Fill
+            Width: =1366
+            ZIndex: =1
+
+        Button1_4 As button:
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =421
+            RadiusBottomLeft: =40
+            RadiusBottomRight: =40
+            RadiusTopLeft: =40
+            RadiusTopRight: =40
+            Text: =""
+            Width: =1083
+            X: =142
+            Y: =164
             ZIndex: =2
 
-        Image1_1 As image:
-            Image: =User().Image
-            X: =1132
-            Y: =40
-            ZIndex: =3
-
-        Label1_1 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Preguntas encuestas Post-Servicios"
-            Width: =659
-            X: =127
-            Y: =65
-            ZIndex: =4
-
-        Label2_1 As label:
-            Height: =97
-            Text: |-
-                ="Usuario: "&User().FullName
-            Width: =313
-            X: =818
-            Y: =43
-            ZIndex: =5
-
         Button3_4 As button:
+            BorderThickness: =4
+            Fill: =RGBA(80, 112, 133, 1)
             Height: =75
             OnSelect: |
                 =Patch('Encuestas PostServicios',FormData,Form2.Updates,Form3.Updates);Navigate(EnviarData);
             Text: ="Enviar"
-            X: =997
-            Y: =623
-            ZIndex: =7
+            X: =1075
+            Y: =598
+            ZIndex: =3
 
         Button3_3 As button:
+            BorderThickness: =4
+            Fill: =RGBA(80, 112, 133, 1)
             Height: =75
             OnSelect: |-
                 =UpdateContext({var_form2:true});UpdateContext({var_form3:false});
             Text: ="Regresar"
-            X: =116
-            Y: =602
-            ZIndex: =8
+            X: =131
+            Y: =598
+            ZIndex: =4
 
         Form3 As form:
             DataSource: ='Encuestas PostServicios'
             Height: =434
             Item: =FormData
             Width: =824
-            X: =105
-            Y: =168
-            ZIndex: =9
+            X: =260
+            Y: =164
+            ZIndex: =5
 
             "'Pregunta 1_DataCard16' As typedDataCard.ratingEditCard":
                 BorderStyle: =BorderStyle.Solid
@@ -501,7 +498,7 @@ Screen1 As screen:
                     Width: =Parent.Width - 60
                     Wrap: =false
                     X: =30
-                    Y: =10
+                    Y: =12
                     ZIndex: =1
 
                 DataCardValue158 As rating:
@@ -1202,4 +1199,49 @@ Screen1 As screen:
                     Wrap: =false
                     Y: =DataCardKey169.Y
                     ZIndex: =4
+
+        Button1_3 As button:
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =97
+            RadiusBottomLeft: =80
+            RadiusBottomRight: =80
+            RadiusTopLeft: =80
+            RadiusTopRight: =80
+            Text: =""
+            Width: =1083
+            X: =131
+            Y: =40
+            ZIndex: =6
+
+        Label1_2 As label:
+            Color: =RGBA(42, 63, 77, 1)
+            FontWeight: =FontWeight.Bold
+            Size: =20
+            Text: ="Preguntas encuestas Post-Servicios"
+            Width: =659
+            X: =187
+            Y: =70
+            ZIndex: =7
+
+        Label2_2 As label:
+            Color: =RGBA(42, 63, 77, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =97
+            Size: =14
+            Text: |-
+                ="Usuario: "&User().FullName
+            Width: =313
+            X: =830
+            Y: =42
+            ZIndex: =8
+
+        Image1_1 As image:
+            Image: =User().Image
+            X: =1143
+            Y: =39
+            ZIndex: =9
 
