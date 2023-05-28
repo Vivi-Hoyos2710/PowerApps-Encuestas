@@ -275,7 +275,7 @@ Screen1 As screen:
         ContentLanguage: |
             =
         Height: =687
-        Visible: =If(var_form2=true,false,true)
+        Visible: =If(var_form2 || var_form3,false,true)
         Width: =1256
         X: =40
         Y: =40
@@ -292,7 +292,7 @@ Screen1 As screen:
 
     Vista2 As groupContainer.manualLayoutContainer:
         Height: =762
-        Visible: =false
+        Visible: =var_form3
         Width: =1366
         Y: =6
         ZIndex: =4
@@ -554,7 +554,7 @@ Screen1 As screen:
         Button3_3 As button:
             Height: =75
             OnSelect: |-
-                =UpdateContext({var_form2:false});
+                =UpdateContext({var_form2:true});UpdateContext({var_form3:false});
             Text: ="Regresar"
             X: =116
             Y: =602
