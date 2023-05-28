@@ -2,8 +2,10 @@ Screen1 As screen:
 
     Form1 As form:
         DataSource: ='Encuestas PostServicios'
-        X: =40
-        Y: =40
+        Height: =740
+        Width: =1335
+        X: =12
+        Y: =12
         ZIndex: =1
 
         "'Correo electronico organización_DataCard1' As typedDataCard.textualEditCard":
@@ -17,7 +19,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =266
+            Width: =445
             X: =0
             Y: =0
             ZIndex: =2
@@ -85,7 +87,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue2.Text
-            Width: =266
+            Width: =445
             X: =1
             Y: =0
             ZIndex: =2
@@ -153,7 +155,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@'Encuestas PostServicios'], DataSourceInfo.MaxLength, "field_2")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =266
+            Width: =445
             X: =2
             Y: =0
             ZIndex: =2
@@ -220,7 +222,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue4.Text)
-            Width: =266
+            Width: =445
             X: =0
             Y: =1
             ZIndex: =2
@@ -287,7 +289,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue5.Text)
-            Width: =266
+            Width: =445
             X: =1
             Y: =1
             ZIndex: =2
@@ -354,7 +356,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue6.Text)
-            Width: =266
+            Width: =445
             X: =2
             Y: =1
             ZIndex: =2
@@ -421,7 +423,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue7.Text)
-            Width: =266
+            Width: =445
             X: =0
             Y: =2
             ZIndex: =2
@@ -488,7 +490,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue8.Text)
-            Width: =266
+            Width: =445
             X: =1
             Y: =2
             ZIndex: =2
@@ -555,7 +557,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue9.Text)
-            Width: =266
+            Width: =445
             X: =2
             Y: =2
             ZIndex: =2
@@ -622,7 +624,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue10.Text)
-            Width: =266
+            Width: =445
             X: =0
             Y: =3
             ZIndex: =2
@@ -689,7 +691,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue11.Text)
-            Width: =266
+            Width: =445
             X: =1
             Y: =3
             ZIndex: =2
@@ -756,7 +758,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue12.Text)
-            Width: =266
+            Width: =445
             X: =2
             Y: =3
             ZIndex: =2
@@ -823,7 +825,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue13.Text)
-            Width: =266
+            Width: =445
             X: =0
             Y: =4
             ZIndex: =2
@@ -890,7 +892,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue14.Text)
-            Width: =266
+            Width: =445
             X: =1
             Y: =4
             ZIndex: =2
@@ -957,7 +959,7 @@ Screen1 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue15.Attachments
-            Width: =266
+            Width: =445
             X: =2
             Y: =4
             ZIndex: =2
