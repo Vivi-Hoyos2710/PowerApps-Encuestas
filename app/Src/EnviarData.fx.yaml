@@ -50,13 +50,15 @@ EnviarData As screen:
         Height: =96
         Text: ="No olvides seguirnos en nuestra red social para estar al tanto de las novedades."
         Width: =300
-        X: =270
-        Y: =357
+        X: =276
+        Y: =348
         ZIndex: =5
 
     Button2 As button:
-        Text: ="Ir"
-        X: =492
+        OnSelect: |-
+            =Launch("https://www.instagram.com/rcjservices/")
+        Text: ="Visitar"
+        X: =480
         Y: =432
         ZIndex: =6
 
