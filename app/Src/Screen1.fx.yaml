@@ -1020,3 +1020,8 @@ Screen1 As screen:
                     Y: =DataCardKey25.Y
                     ZIndex: =4
 
+    Container2 As groupContainer.manualLayoutContainer:
+        X: =20
+        Y: =20
+        ZIndex: =2
+
