@@ -1,26 +1,66 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 7,
+    "Container1": 5,
+    "Form1": 6,
+    "Host": 3,
+    "Screen1": 4
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "05/28/2023 01:42:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "ac4f6ecc-b758-4ee2-95c2-9526163d0ece": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/280b134562f14909ba4e5795e006264c\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Encuestas PostServicios": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "button": 0,
+    "form": 2,
+    "groupContainer": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Container1": {},
+    "Form1": {},
+    "Host": {},
+    "Screen1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 0,
+    "Container1": 4,
+    "Form1": 5,
+    "Host": 0,
+    "Screen1": 3
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0072904,
+    "ControlCount": {
+      "form": 1,
+      "groupContainer": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.1071198
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

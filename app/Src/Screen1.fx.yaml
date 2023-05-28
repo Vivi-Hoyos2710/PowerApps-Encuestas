@@ -2,6 +2,8 @@ Screen1 As screen:
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =700
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
         Width: =1287
         X: =40
         Y: =40
@@ -11,6 +13,15 @@ Screen1 As screen:
             DataSource: ='Encuestas PostServicios'
             Height: =672
             NumberOfColumns: =2
+            Visible: =var_form = true
             Width: =1267
             ZIndex: =1
+
+    Button1 As button:
+        OnSelect: |-
+            =NewForm(Form1);UpdateContext({var_form:false})
+        Text: ="Botón"
+        X: =588
+        Y: =462
+        ZIndex: =4
 

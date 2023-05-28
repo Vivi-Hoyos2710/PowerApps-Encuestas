@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -111,7 +111,7 @@
     "Id": "ec717baf-5faa-43dc-bd4a-7745fa60ea2c",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Encuestas PostServicios Proyecto SisInfo- No borrar",
     "OriginatingVersion": "1.330",
     "ParserErrorCount": 0
