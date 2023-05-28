@@ -1,19 +1,62 @@
 EnviarData As screen:
 
-    Icon1 As icon.Heart:
-        Height: =214
-        Icon: =Icon.Heart
-        Width: =204
-        X: =411
-        Y: =153
+    Image6_2 As image:
+        Height: =766
+        Image: =FondoRCJ
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
         ZIndex: =1
+
+    Button1_5 As button:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =296
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Text: =""
+        Width: =504
+        X: =220
+        Y: =203
+        ZIndex: =2
 
     Label4 As label:
         Align: =Align.Center
+        Color: =RGBA(42, 63, 77, 1)
         FontWeight: =FontWeight.Bold
-        Text: ="Gracias por llenar el formulario!"
-        Width: =244
-        X: =392
-        Y: =367
-        ZIndex: =2
+        Height: =210
+        Size: =25
+        Text: ="Gracias por ayudarnos a continuar creciendo"
+        Width: =473
+        X: =235
+        Y: =180
+        ZIndex: =3
+
+    Image9 As image:
+        Height: =474
+        Image: =Instagram
+        Width: =571
+        X: =679
+        Y: =146
+        ZIndex: =4
+
+    Label8 As label:
+        Color: =RGBA(42, 63, 77, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =96
+        Text: ="No olvides seguirnos en nuestra red social para estar al tanto de las novedades."
+        Width: =300
+        X: =270
+        Y: =357
+        ZIndex: =5
+
+    Button2 As button:
+        Text: ="Ir"
+        X: =492
+        Y: =432
+        ZIndex: =6
 

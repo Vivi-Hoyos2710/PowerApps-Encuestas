@@ -60,7 +60,7 @@ Screen1 As screen:
             Size: =20
             Text: ="Datos Personales"
             Width: =659
-            X: =196
+            X: =231
             Y: =71
             ZIndex: =6
 
@@ -320,6 +320,12 @@ Screen1 As screen:
                     Wrap: =false
                     Y: =DataCardKey130.Y
                     ZIndex: =4
+
+        Image7 As image:
+            Image: =logoRCJ
+            X: =131
+            Y: =41
+            ZIndex: =11
 
     inicio As groupContainer.manualLayoutContainer:
         ContentLanguage: |
@@ -1223,8 +1229,8 @@ Screen1 As screen:
             Size: =20
             Text: ="Preguntas encuestas Post-Servicios"
             Width: =659
-            X: =187
-            Y: =70
+            X: =231
+            Y: =68
             ZIndex: =7
 
         Label2_2 As label:
@@ -1244,4 +1250,10 @@ Screen1 As screen:
             X: =1143
             Y: =39
             ZIndex: =9
+
+        Image7_1 As image:
+            Image: =logoRCJ
+            X: =131
+            Y: =38
+            ZIndex: =10
 
