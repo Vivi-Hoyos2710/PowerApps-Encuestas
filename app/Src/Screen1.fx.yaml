@@ -1012,3 +1012,9 @@ Screen1 As screen:
                 Y: =DataCardKey15.Y
                 ZIndex: =4
 
+    Icon1 As icon.ZoomOut:
+        Icon: =Icon.ZoomOut
+        X: =960
+        Y: =302
+        ZIndex: =2
+
