@@ -1,0 +1,19 @@
+EnviarData As screen:
+
+    Icon1 As icon.Heart:
+        Height: =214
+        Icon: =Icon.Heart
+        Width: =204
+        X: =411
+        Y: =153
+        ZIndex: =1
+
+    Label4 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Text: ="Gracias por llenar el formulario!"
+        Width: =244
+        X: =392
+        Y: =367
+        ZIndex: =2
+

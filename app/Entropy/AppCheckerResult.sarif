@@ -1134,90 +1134,6 @@
               "message": {
                 "text": "Error al ejecutar la regla app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 2
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -1257,19 +1173,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Nombre y apellidos del cliente_DataCard4'.DataCardValue100.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 4_DataCard12'.DataCardValue161.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Nombre y apellidos del cliente_DataCard4'.DataCardValue100.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 4_DataCard12'.DataCardValue161.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Nombre y apellidos del cliente_DataCard4'.DataCardValue100"
+                "type": "Screen1.Vista2.Form3.'Pregunta 4_DataCard12'.DataCardValue161"
               }
             }
           ],
@@ -1287,19 +1203,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 5_DataCard12'.DataCardValue105.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 7_DataCard12'.DataCardValue164.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 5_DataCard12'.DataCardValue105.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 7_DataCard12'.DataCardValue164.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 5_DataCard12'.DataCardValue105"
+                "type": "Screen1.Vista2.Form3.'Pregunta 7_DataCard12'.DataCardValue164"
               }
             }
           ],
@@ -1317,19 +1233,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 4_DataCard8'.DataCardValue104.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.Recomendación_DataCard13.DataCardValue167.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 4_DataCard8'.DataCardValue104.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.Recomendación_DataCard13.DataCardValue167.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 4_DataCard8'.DataCardValue104"
+                "type": "Screen1.Vista2.Form3.Recomendación_DataCard13.DataCardValue167"
               }
             }
           ],
@@ -1347,19 +1263,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Datos adjuntos_DataCard4'.DataCardValue112.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard6'.DataCardValue128.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Datos adjuntos_DataCard4'.DataCardValue112.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard6'.DataCardValue128.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Datos adjuntos_DataCard4'.DataCardValue112"
+                "type": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard6'.DataCardValue128"
               }
             }
           ],
@@ -1377,19 +1293,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 8_DataCard8'.DataCardValue108.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard6'.DataCardValue129.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 8_DataCard8'.DataCardValue108.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard6'.DataCardValue129.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 8_DataCard8'.DataCardValue108"
+                "type": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard6'.DataCardValue129"
               }
             }
           ],
@@ -1407,19 +1323,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard1'.DataCardValue13.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard6'.DataCardValue130.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard1'.DataCardValue13.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard6'.DataCardValue130.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard1'.DataCardValue13"
+                "type": "Screen1.PrimeraVista.Form2.'Nombre y apellidos del cliente_DataCard6'.DataCardValue130"
               }
             }
           ],
@@ -1437,19 +1353,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard1'.DataCardValue12.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 1_DataCard16'.DataCardValue158.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard1'.DataCardValue12.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 1_DataCard16'.DataCardValue158.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.PrimeraVista.Form2.'Nombre Empresa_DataCard1'.DataCardValue12"
+                "type": "Screen1.Vista2.Form3.'Pregunta 1_DataCard16'.DataCardValue158"
               }
             }
           ],
@@ -1467,19 +1383,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard1'.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 2_DataCard12'.DataCardValue159.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard1'.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 2_DataCard12'.DataCardValue159.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.PrimeraVista.Form2.'Correo electronico organización_DataCard1'.DataCardValue11"
+                "type": "Screen1.Vista2.Form3.'Pregunta 2_DataCard12'.DataCardValue159"
               }
             }
           ],
@@ -1497,19 +1413,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 7_DataCard8'.DataCardValue107.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 3_DataCard14'.DataCardValue160.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 7_DataCard8'.DataCardValue107.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 3_DataCard14'.DataCardValue160.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 7_DataCard8'.DataCardValue107"
+                "type": "Screen1.Vista2.Form3.'Pregunta 3_DataCard14'.DataCardValue160"
               }
             }
           ],
@@ -1527,19 +1443,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 3_DataCard9'.DataCardValue103.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 6_DataCard13'.DataCardValue163.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 3_DataCard9'.DataCardValue103.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 6_DataCard13'.DataCardValue163.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 3_DataCard9'.DataCardValue103"
+                "type": "Screen1.Vista2.Form3.'Pregunta 6_DataCard13'.DataCardValue163"
               }
             }
           ],
@@ -1557,19 +1473,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 2_DataCard8'.DataCardValue102.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 5_DataCard16'.DataCardValue162.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 2_DataCard8'.DataCardValue102.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 5_DataCard16'.DataCardValue162.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 2_DataCard8'.DataCardValue102"
+                "type": "Screen1.Vista2.Form3.'Pregunta 5_DataCard16'.DataCardValue162"
               }
             }
           ],
@@ -1587,19 +1503,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 1_DataCard12'.DataCardValue101.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 9_DataCard12'.DataCardValue166.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 1_DataCard12'.DataCardValue101.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 9_DataCard12'.DataCardValue166.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 1_DataCard12'.DataCardValue101"
+                "type": "Screen1.Vista2.Form3.'Pregunta 9_DataCard12'.DataCardValue166"
               }
             }
           ],
@@ -1617,19 +1533,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Correo electronico organización_DataCard4'.DataCardValue98.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.Sugerencias_DataCard9.DataCardValue168.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Correo electronico organización_DataCard4'.DataCardValue98.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.Sugerencias_DataCard9.DataCardValue168.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Correo electronico organización_DataCard4'.DataCardValue98"
+                "type": "Screen1.Vista2.Form3.Sugerencias_DataCard9.DataCardValue168"
               }
             }
           ],
@@ -1647,79 +1563,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Nombre Empresa_DataCard4'.DataCardValue99.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 8_DataCard12'.DataCardValue165.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Nombre Empresa_DataCard4'.DataCardValue99.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Vista2.Form3.'Pregunta 8_DataCard12'.DataCardValue165.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Nombre Empresa_DataCard4'.DataCardValue99"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 6_DataCard9'.DataCardValue106.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 6_DataCard9'.DataCardValue106.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 6_DataCard9'.DataCardValue106"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 9_DataCard8'.DataCardValue109.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Vista2.Form2_1.'Pregunta 9_DataCard8'.DataCardValue109.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Vista2.Form2_1.'Pregunta 9_DataCard8'.DataCardValue109"
+                "type": "Screen1.Vista2.Form3.'Pregunta 8_DataCard12'.DataCardValue165"
               }
             }
           ],
