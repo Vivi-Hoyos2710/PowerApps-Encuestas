@@ -1,8 +1,9 @@
 Screen1 As screen:
 
     Container1 As groupContainer.manualLayoutContainer:
-        ContentLanguage: =var_form = true
-        Height: =700
+        ContentLanguage: |
+            =
+        Height: =587
         LayoutDirection: =LayoutDirection.Manual
         LayoutMode: =LayoutMode.Auto
         Width: =1287
