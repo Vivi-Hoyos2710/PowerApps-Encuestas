@@ -2,7 +2,7 @@ Screen1 As screen:
 
     PrimeraVista As groupContainer.manualLayoutContainer:
         Height: =762
-        Visible: =var_form2=false
+        Visible: =var_form2=true
         Width: =1366
         Y: =2
         ZIndex: =1
@@ -256,7 +256,7 @@ Screen1 As screen:
         Button3_1 As button:
             Height: =75
             OnSelect: |-
-                =UpdateContext({var_form2:false};{var_form3:true})
+                =UpdateContext({var_form2:false});UpdateContext({var_form3:false))
             Text: ="Siguiente"
             X: =997
             Y: =623
@@ -292,7 +292,7 @@ Screen1 As screen:
 
     Vista2 As groupContainer.manualLayoutContainer:
         Height: =762
-        Visible: =var_form3=true
+        Visible: =false
         Width: =1366
         Y: =6
         ZIndex: =4
