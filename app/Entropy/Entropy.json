@@ -3,7 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button3": 146,
+    "Button3": 153,
     "Button3_1": 147,
     "Container1": 58,
     "Correo electronico organización_DataCard1": 60,
@@ -19,6 +19,7 @@
     "Form2": 59,
     "Host": 3,
     "Image1": 141,
+    "inicio": 152,
     "Label1": 144,
     "Label2": 145,
     "Nombre Empresa_DataCard1": 65,
@@ -31,7 +32,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/28/2023 02:39:08",
+  "HeaderLastSavedDateTimeUTC": "05/28/2023 02:46:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ac4f6ecc-b758-4ee2-95c2-9526163d0ece": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/726c4fde09ca483d9eca2862983fb46a\""
@@ -74,6 +75,7 @@
     "Form2": {},
     "Host": {},
     "Image1": {},
+    "inicio": {},
     "Label1": {},
     "Label2": {},
     "Nombre Empresa_DataCard1": {},
@@ -88,8 +90,8 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button3": 21,
-    "Button3_1": 22,
+    "Button3": 22,
+    "Button3_1": 21,
     "Container1": 0,
     "Correo electronico organización_DataCard1": 6,
     "DataCardKey11": 9,
@@ -104,6 +106,7 @@
     "Form2": 5,
     "Host": 0,
     "Image1": 2,
+    "inicio": 0,
     "Label1": 4,
     "Label2": 3,
     "Nombre Empresa_DataCard1": 11,
@@ -122,7 +125,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0067707,
     "ControlCount": {
-      "button": 2,
+      "button": 4,
       "form": 1,
       "groupContainer": 4,
       "rectangle": 1,

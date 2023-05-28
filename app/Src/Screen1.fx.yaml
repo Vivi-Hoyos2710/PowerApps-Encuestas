@@ -2,8 +2,7 @@ Screen1 As screen:
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =762
-        Visible: |
-            =true
+        Visible: =var_form2=true
         Width: =1366
         Y: =2
         ZIndex: =1
@@ -254,15 +253,6 @@ Screen1 As screen:
             Y: =43
             ZIndex: =5
 
-        Button3 As button:
-            Height: =75
-            OnSelect: |-
-                =NewForm(Form2);UpdateContext({var_form2:true})
-            Text: ="Nuevo formulario"
-            X: =92
-            Y: =623
-            ZIndex: =6
-
         Button3_1 As button:
             Height: =75
             OnSelect: =
@@ -270,4 +260,23 @@ Screen1 As screen:
             X: =997
             Y: =623
             ZIndex: =7
+
+    inicio As groupContainer.manualLayoutContainer:
+        ContentLanguage: |
+            =
+        Height: =687
+        Visible: =If(var_form2=true,false,true)
+        Width: =1256
+        X: =40
+        Y: =40
+        ZIndex: =3
+
+        Button3 As button:
+            Height: =75
+            OnSelect: |-
+                =NewForm(Form2);UpdateContext({var_form2:true})
+            Text: ="Nuevo formulario"
+            X: =20
+            Y: =26
+            ZIndex: =1
 
