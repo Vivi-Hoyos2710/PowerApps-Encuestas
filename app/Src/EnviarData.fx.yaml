@@ -55,6 +55,7 @@ EnviarData As screen:
         ZIndex: =5
 
     Button2 As button:
+        Fill: =RGBA(125, 175, 205, 1)
         OnSelect: |-
             =Launch("https://www.instagram.com/rcjservices/")
         Text: ="Visitar"
