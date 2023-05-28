@@ -1,0 +1,24 @@
+{
+  "ac4f6ecc-b758-4ee2-95c2-9526163d0ece": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://eafit.sharepoint.com/sites/EncuestaspostServicioRCJ": {
+        "dataSources": {
+          "Encuestas PostServicios": {
+            "tableName": "66cadf44-cd28-486a-a88a-ef53e3ff932f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Encuestas PostServicios"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ac4f6ecc-b758-4ee2-95c2-9526163d0ece"
+  }
+}
