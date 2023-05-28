@@ -20,8 +20,8 @@ Screen1 As screen:
     Button1 As button:
         OnSelect: |-
             =NewForm(Form1);UpdateContext({var_form:false})
-        Text: ="Botón"
-        X: =588
-        Y: =462
+        Text: ="Empecemos!"
+        X: =603
+        Y: =540
         ZIndex: =4
 
