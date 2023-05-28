@@ -256,7 +256,7 @@ Screen1 As screen:
         Button3_1 As button:
             Height: =75
             OnSelect: |-
-                =UpdateContext({var_form2:false});UpdateContext({var_form3:false))
+                =UpdateContext({var_form2:false});UpdateContext({var_form3:true})
             Text: ="Siguiente"
             X: =997
             Y: =623
