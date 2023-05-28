@@ -13,6 +13,34 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "attachments": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/attachments",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "attachments",
+    "OverridableProperties": {},
+    "Version": "2.3.0"
+  },
+  "button": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/button",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "button",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "form": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -28,18 +56,14 @@
     "Version": "2.3.2"
   },
   "groupContainer": {
-    "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
     "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
+    "IsWidgetTemplate": false,
     "LastModifiedTimestamp": "0",
     "Name": "groupContainer",
-    "OverridableProperties": {},
-    "Version": "1.3.0"
+    "Version": "1.0"
   },
   "hostControl": {
     "CustomGroupControlTemplateName": "",
