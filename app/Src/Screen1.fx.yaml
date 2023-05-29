@@ -81,7 +81,7 @@ Screen1 As screen:
             Fill: =RGBA(80, 112, 133, 1)
             Height: =75
             OnSelect: |-
-                =UpdateContext({var_form2:false});UpdateContext({var_form3:true});Set(FormData,Defaults('Encuestas PostServicios'));
+                =If(IsBlankOrError(DataCardValue128)||IsBlankOrError(DataCardValue129),Notify("Por favor llene todas las entradas correspondientes.",NotificationType.Error),UpdateContext({var_form2:false});UpdateContext({var_form3:true});Set(FormData,Defaults('Encuestas PostServicios')))
             Text: ="Siguiente"
             X: =1075
             Y: =602
@@ -163,7 +163,7 @@ Screen1 As screen:
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Visible: =If(IsBlank(DataCardKey128),true,false)
                     Width: =Parent.Width - 60
                     X: =30
                     Y: =DataCardValue128.Y + DataCardValue128.Height
