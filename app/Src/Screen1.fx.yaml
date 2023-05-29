@@ -81,7 +81,7 @@ Screen1 As screen:
             Fill: =RGBA(80, 112, 133, 1)
             Height: =75
             OnSelect: |-
-                =If(IsBlankOrError(DataCardValue128)||IsBlankOrError(DataCardValue129),Notify("Por favor llene todas las entradas correspondientes.",NotificationType.Error),UpdateContext({var_form2:false});UpdateContext({var_form3:true});Set(FormData,Defaults('Encuestas PostServicios')))
+                =If(IsBlankOrError(DataCardValue128) || IsBlankOrError(DataCardValue129) || !IsBlankOrError(DataCardValue130),Notify("Por favor llene todas las entradas correspondientes.",NotificationType.Error);ClearCollect(ErrorCollection, {Error: "Por favor llene todas las entradas correspondientes."}),UpdateContext({var_form2:false});UpdateContext({var_form3:true});Set(FormData,Defaults('Encuestas PostServicios')))
             Text: ="Siguiente"
             X: =1075
             Y: =602
@@ -162,8 +162,9 @@ Screen1 As screen:
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =If(IsBlank(DataCardKey128),true,false)
+                    Text: ="Campo de correo electónico vacío"
+                    Visible: |
+                        =If(!IsEmpty(ErrorCollection) && IsBlank(DataCardValue128),true,false)
                     Width: =Parent.Width - 60
                     X: =30
                     Y: =DataCardValue128.Y + DataCardValue128.Height
@@ -233,7 +234,8 @@ Screen1 As screen:
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =Parent.Error
+                    Text: |
+                        =If(!IsEmpty(ErrorCollection) && IsBlank(DataCardValue129),true,false)
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30

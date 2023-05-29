@@ -116,7 +116,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/29/2023 19:25:16",
+  "HeaderLastSavedDateTimeUTC": "05/29/2023 21:16:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ac4f6ecc-b758-4ee2-95c2-9526163d0ece": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/726c4fde09ca483d9eca2862983fb46a\""
@@ -136,7 +136,8 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "DropDownSample": 1,
-    "Encuestas PostServicios": 0
+    "Encuestas PostServicios": 0,
+    "ErrorCollection": 2
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
