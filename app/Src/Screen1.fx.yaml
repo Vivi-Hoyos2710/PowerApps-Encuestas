@@ -306,7 +306,7 @@ Screen1 As screen:
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: ="Capo Nombre y apellidos cliente vacío"
+                    Text: ="Campo Nombre y apellidos cliente vacío"
                     Visible: |
                         =If(!IsEmpty(ErrorCollection) && IsBlank(DataCardValue130),true,false)
                     Width: =Parent.Width - 60
