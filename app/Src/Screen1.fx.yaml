@@ -459,7 +459,11 @@ Screen1 As screen:
             Fill: =RGBA(80, 112, 133, 1)
             Height: =75
             OnSelect: |
-                =Patch('Encuestas PostServicios',FormData,Form2.Updates,Form3.Updates);Navigate(EnviarData);
+                =Patch('Encuestas PostServicios',FormData,Form2.Updates,Form3.Updates);
+                If(IsEmpty(Errors('Encuestas PostServicios')),
+                Notify("Encuesta correctamente enviada",NotificationType.Success);Navigate(EnviarData),
+                Notify(First(Errors('Encuestas PostServicios')).Message,NotificationType.Error)
+                )
             Text: ="Enviar"
             X: =1075
             Y: =598
