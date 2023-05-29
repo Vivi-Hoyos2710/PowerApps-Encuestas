@@ -484,8 +484,9 @@ Screen1 As screen:
             DataSource: ='Encuestas PostServicios'
             Height: =421
             Item: =FormData
-            Width: =824
-            X: =260
+            NumberOfColumns: =2
+            Width: =986
+            X: =182
             Y: =164
             ZIndex: =5
 
@@ -499,24 +500,17 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue158.Value
-                Width: =274
+                Width: =493
+                WidthFit: =true
                 X: =0
                 Y: =0
                 ZIndex: =1
 
                 DataCardKey158 As label:
+                    AutoHeight: =true
                     Height: =195
-                    Text: |-
-                        ="Si la calibración se ejecutó
-                        en las instalaciones del
-                        cliente, ¿Está satisfecho
-                        con la forma en que
-                        nuestro personal ejecutó
-                        la actividad técnica?
-                        De lo contrario pase a la
-                        siguiente pregunta."
-                    Width: =238
-                    Wrap: =false
+                    Text: ="1.Si la calibración se ejecutó en las instalaciones del cliente, ¿Está satisfecho con la forma en que nuestro personal ejecutó la actividad técnica?."
+                    Width: =463
                     X: =30
                     Y: =12
                     ZIndex: =1
@@ -572,20 +566,16 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue159.Value
-                Width: =274
+                Width: =493
+                WidthFit: =true
                 X: =1
                 Y: =0
                 ZIndex: =1
 
                 DataCardKey159 As label:
-                    Height: =195
-                    Text: |-
-                        ="¿Está satisfecho con el
-                        trato dado por nuestro
-                        personal de servicio al 
-                        cliente?"
-                    Width: =238
-                    Wrap: =false
+                    Height: =79
+                    Text: ="2.¿Está satisfecho con el trato dado por nuestro personal de servicio al cliente?"
+                    Width: =400
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -638,23 +628,20 @@ Screen1 As screen:
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Encuestas PostServicios'],DataSourceInfo.DisplayName,"field_5")
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
+                Height: =155
                 Required: =true
                 Update: =DataCardValue160.Value
-                Width: =274
-                X: =2
-                Y: =0
+                Width: =493
+                WidthFit: =true
+                X: =0
+                Y: =1
                 ZIndex: =1
 
                 DataCardKey161 As label:
+                    AutoHeight: =true
                     Height: =195
-                    Text: |-
-                        ="¿De acuerdo a su criterio,
-                        cuanto valor le asigna al
-                        nivel técnico por el
-                        servicio prestado?"
-                    Width: =238
-                    Wrap: =false
+                    Text: ="3.¿De acuerdo a su criterio,cuanto valor le asigna al nivel técnico por el servicio prestado?"
+                    Width: =453
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -710,20 +697,16 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue161.Value
-                Width: =274
-                X: =0
+                Width: =493
+                X: =1
                 Y: =1
                 ZIndex: =1
 
                 DataCardKey162 As label:
+                    AutoHeight: =true
                     Height: =195
-                    Text: |-
-                        ="¿De acuerdo a su criterio,
-                        que valor le asigna al
-                        precio ofertado por el
-                        servicio prestado?"
-                    Width: =238
-                    Wrap: =false
+                    Text: ="4.¿De acuerdo a su criterio, que valor le asigna al precio ofertado por el servicio prestado?"
+                    Width: =445
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -779,20 +762,16 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue162.Value
-                Width: =274
-                X: =1
-                Y: =1
+                Width: =493
+                X: =0
+                Y: =2
                 ZIndex: =1
 
                 DataCardKey163 As label:
+                    AutoHeight: =true
                     Height: =195
-                    Text: |-
-                        ="¿Está satisfecho con el
-                        tiempo de respuesta una
-                        vez presentada su solicitud
-                        de servicio?"
-                    Width: =238
-                    Wrap: =false
+                    Text: ="5.¿Está satisfecho con el tiempo de respuesta una vez presentada su solicitud de servicio?"
+                    Width: =433
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -848,21 +827,16 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue163.Value
-                Width: =274
-                X: =2
-                Y: =1
+                Width: =493
+                X: =1
+                Y: =2
                 ZIndex: =1
 
                 DataCardKey164 As label:
+                    AutoHeight: =true
                     Height: =195
-                    Text: |-
-                        ="¿Está satisfecho con el
-                        tiempo de entrega de los
-                        certificados de calibración
-                        una vez ejecutado el
-                        servicio correspondiente?"
-                    Width: =238
-                    Wrap: =false
+                    Text: ="6.¿Está satisfecho con el tiempo de entrega de los certificados de calibración una vez ejecutado el servicio correspondiente?"
+                    Width: =433
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -918,24 +892,19 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue164.Value
-                Width: =274
+                Width: =493
                 X: =0
-                Y: =2
+                Y: =3
                 ZIndex: =1
 
                 DataCardKey165 As label:
+                    AutoHeight: =true
                     Height: =195
                     Text: |-
-                        ="Si la calibración se ejecutó
-                        en las instalaciones del 
-                        cliente, ¿Qué valor le asigna
-                        a la capacidad del analista 
-                        de responder dudas y 
-                        preguntas que son 
-                        formuladas? De lo contrario
-                        pase a la siguiente pregunta."
-                    Width: =244
-                    Wrap: =false
+                        ="7.Si la calibración se ejecutó en las instalaciones del cliente, ¿Qué valor le asigna
+                        a la capacidad del analista de responder dudas y preguntas que son 
+                        formuladas?."
+                    Width: =454
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -991,23 +960,18 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue165.Value
-                Width: =274
+                Width: =493
                 X: =1
-                Y: =2
+                Y: =3
                 ZIndex: =1
 
                 DataCardKey166 As label:
+                    AutoHeight: =true
                     Height: =195
                     Text: |-
-                        ="Si la calibración se ejecutó
-                        dentro del laboratorio, ¿Qué
-                        valor le asigna a la capacidad
-                        del personal de responder
-                        dudas y preguntas que son
-                        formuladas? De lo contrario
-                        pase a la siguiente pregunta"
-                    Width: =244
-                    Wrap: =false
+                        ="8.Si la calibración se ejecutó dentro del laboratorio, ¿Qué valor le asigna a la capacidad del personal de responder dudas y preguntas que son
+                        formuladas?"
+                    Width: =454
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -1063,19 +1027,15 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue166.Value
-                Width: =274
-                X: =2
-                Y: =2
+                Width: =493
+                X: =0
+                Y: =4
                 ZIndex: =1
 
                 DataCardKey167 As label:
-                    Height: =195
-                    Text: |-
-                        ="¿Está satisfecho con el
-                        grado de cumplimiento del
-                        servicio contratado?"
-                    Width: =238
-                    Wrap: =false
+                    Height: =74
+                    Text: ="9.¿Qué tan satisfecho con el grado de cumplimiento del servicio contratado?"
+                    Width: =453
                     X: =30
                     Y: =10
                     ZIndex: =1
@@ -1132,15 +1092,15 @@ Screen1 As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue167.Selected.Value
-                Width: =274
-                X: =0
-                Y: =3
+                Width: =493
+                X: =1
+                Y: =4
                 ZIndex: =1
 
                 DataCardKey168 As label:
                     AutoHeight: =true
                     Height: =34
-                    Text: =Parent.DisplayName
+                    Text: ="10. ¿Recomendaría este servicio a otros clientes?"
                     Width: =Parent.Width - 60
                     Wrap: =false
                     X: =30
@@ -1193,15 +1153,15 @@ Screen1 As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue168.Text
-                Width: =274
-                X: =1
-                Y: =3
+                Width: =493
+                X: =0
+                Y: =5
                 ZIndex: =1
 
                 DataCardKey169 As label:
                     AutoHeight: =true
                     Height: =34
-                    Text: =Parent.DisplayName
+                    Text: =Parent.DisplayName & " ---Opcional"
                     Width: =Parent.Width - 60
                     Wrap: =false
                     X: =30
