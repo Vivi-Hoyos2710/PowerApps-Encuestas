@@ -519,7 +519,7 @@ Screen1 As screen:
 
                 DataCardValue158 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -587,7 +587,7 @@ Screen1 As screen:
 
                 DataCardValue159 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -656,7 +656,7 @@ Screen1 As screen:
 
                 DataCardValue160 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -724,7 +724,7 @@ Screen1 As screen:
 
                 DataCardValue161 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -792,7 +792,7 @@ Screen1 As screen:
 
                 DataCardValue162 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -860,7 +860,7 @@ Screen1 As screen:
 
                 DataCardValue163 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -931,7 +931,7 @@ Screen1 As screen:
 
                 DataCardValue164 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -1001,7 +1001,7 @@ Screen1 As screen:
 
                 DataCardValue165 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -1068,7 +1068,7 @@ Screen1 As screen:
 
                 DataCardValue166 As rating:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
+                    Default: =Parent.Default&&0
                     DisabledFill: =Self.Fill
                     DisplayMode: =Parent.DisplayMode
                     FocusedBorderColor: =Self.BorderColor
@@ -1193,7 +1193,7 @@ Screen1 As screen:
                     Color: =RGBA(42, 63, 77, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =34
-                    Text: =Parent.DisplayName & " ---Opcional"
+                    Text: =Parent.DisplayName & "  (Opcional)"
                     Width: =Parent.Width - 60
                     Wrap: =false
                     X: =30

@@ -30,9 +30,9 @@ EnviarData As screen:
         FontWeight: =FontWeight.Bold
         Height: =210
         Size: =25
-        Text: ="Gracias por ayudarnos a continuar creciendo"
-        Width: =473
-        X: =235
+        Text: ="Gracias por ayudarnos en la mejora continua de nuestros procesos"
+        Width: =423
+        X: =260
         Y: =180
         ZIndex: =3
 
